@@ -214,45 +214,49 @@ Modern Streamlit dashboard for:
 
 ---
 
-# 🎥 What DrishtAI Can Do
+<div align="center">
+
+### 🎥 What DrishtAI Can Do
 
 ✅ Upload CCTV footage
 
-↓
+⬇️
 
 ✅ Detect every vehicle
 
-↓
+⬇️
 
 ✅ Track vehicle movement
 
-↓
+⬇️
 
-✅ Measure speed and acceleration
+✅ Measure speed & acceleration
 
-↓
+⬇️
 
 ✅ Detect abnormal behaviour
 
-↓
+⬇️
 
 ✅ Identify collisions
 
-↓
+⬇️
 
 ✅ Build an event timeline
 
-↓
+⬇️
 
 ✅ Find the earliest warning
 
-↓
+⬇️
 
 ✅ Explain the accident using AI
 
-↓
+⬇️
 
 ✅ Answer user questions about the footage
+
+</div>
 
 ---
 
@@ -2161,7 +2165,7 @@ Rather than treating CCTV as a passive recording device, DrishtAI reimagines sur
 
 <td align="center" width="50%">
 
-<img src="assets/aditya.png" width="160px"/>
+<img src="assets/aditya.jpg" width="160px"/>
 
 ### **Aditya Shukla**
 
@@ -2373,9 +2377,11 @@ License         : MIT
 
 ---
 
-Built with ❤️ using
+<div align="center">
 
-Python • OpenCV • YOLOv8 • ByteTrack • Streamlit • OpenAI
+Built with ❤️ using <b>Python • OpenCV • YOLOv8 • ByteTrack • Streamlit • OpenAI</b>
+
+</div>
 
 ---
 
