@@ -278,17 +278,15 @@ This allows investigators, emergency responders and security personnel to unders
 
 # 📸 Project Preview
 
-> Replace these screenshots with your own.
-
 <p align="center">
 
 <img src="assets/dashboard.png" width="90%">
 
 <br><br>
 
-<img src="assets/upload.png" width="45%">
+<img src="assets/upload.png" width="90%">
 
-<img src="assets/result.png" width="45%">
+<img src="assets/result.png" width="90%">
 
 </p>
 
