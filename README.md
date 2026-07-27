@@ -2,8 +2,6 @@
 
 <img src="assets/logo.png" width="170"/>
 
-# 🚨 DrishtAI
-
 ### *CCTV that doesn't just watch. It understands.*
 
 <p>
@@ -2169,23 +2167,25 @@ Rather than treating CCTV as a passive recording device, DrishtAI reimagines sur
 
 **AI & Computer Vision Engineer**
 
-VIT Bhopal
+IITM & VIT Bhopal
 
 #### Responsibilities
 
-Computer Vision
+Computer Vision Pipeline Development
 
-YOLO Integration
+Video Processing & Frame Extraction
 
-Pipeline Architecture
+YOLO Model Integration
 
-Streamlit UI
+Streamlit Application Development
 
-System Design
+Interactive Dashboard & Visualization
 
-GitHub Repository
+Frontend Architecture & UI/UX
 
-Video Processing
+Project Structure & GitHub Management
+
+System Integration & Testing
 
 </td>
 
@@ -2195,23 +2195,32 @@ Video Processing
 
 ### **Abhinav Singh Kushawaha**
 
-**AI / ML Engineer**
+**AI / ML & Computer Vision Engineer**
 
 JKIAPT • University of Allahabad
 
 #### Responsibilities
 
-Motion Analysis
+System Architecture & Pipeline Design
 
-Tracking Logic
+YOLOv8 Detection
 
-Timeline Builder
+ByteTrack Multi-Object Tracking
 
-Collision Detection
+Motion Mathematics
 
-Reasoning Layer
+Collision Detection Logic
 
-Backend Development
+Event Timeline Builder
+
+Earliest-Warning Reasoning
+
+LLM Explanation Layer
+
+Streamlit Review Console
+
+End-to-End Testing
+
 
 </td>
 
@@ -2337,7 +2346,9 @@ Your support helps us improve the project and continue developing intelligent su
 
 📧 Email: abhinavsk5899@gmail.com
 
-🐙 GitHub: *(Add GitHub profile here)*
+💼 LinkedIn: https://www.linkedin.com/in/abhinav-singh-kushawaha-49089a165
+
+🐙 GitHub: https://github.com/ABHINAV1111-WEB
 
 ---
 
