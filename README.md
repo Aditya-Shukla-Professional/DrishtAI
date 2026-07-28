@@ -1,3 +1,14 @@
+---
+title: DrishtAI
+emoji: 🚗
+colorFrom: blue
+colorTo: gray
+sdk: streamlit
+app_file: src/ui/app.py
+pinned: false
+---
+
+
 <div align="center">
 
 <img src="assets/logo.png" width="170"/>
