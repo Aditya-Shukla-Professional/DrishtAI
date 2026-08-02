@@ -486,7 +486,181 @@ background:rgba(255,255,255,.08);
 margin:40px 0;
 
 }
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
 
+@media (max-width: 1200px){
+
+    .headline{
+        font-size:3rem !important;
+    }
+
+    .answer{
+        font-size:3rem !important;
+    }
+
+    .lead{
+        font-size:3rem !important;
+    }
+
+    .card{
+        padding:22px !important;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    .headline{
+        font-size:2.4rem !important;
+    }
+
+    .answer{
+        font-size:2.5rem !important;
+    }
+
+    .lead{
+        font-size:2.3rem !important;
+    }
+
+    .sub{
+        font-size:16px !important;
+    }
+
+    .card{
+        padding:18px !important;
+        border-radius:18px !important;
+    }
+
+    .stButton>button{
+        width:100%;
+    }
+
+}
+
+@media (max-width:600px){
+
+    .headline{
+        font-size:2rem !important;
+    }
+
+    .answer{
+        font-size:2.2rem !important;
+    }
+
+    .lead{
+        font-size:2rem !important;
+    }
+
+    .sub{
+        font-size:15px !important;
+    }
+
+    .card{
+        padding:15px !important;
+    }
+
+    [data-testid="stFileUploader"]{
+        padding:20px !important;
+    }
+
+    .stTextInput input{
+        height:50px !important;
+        font-size:16px !important;
+    }
+
+}
+/* ===============================
+   HERO RESPONSIVE
+================================*/
+
+@media (max-width:900px){
+
+.hero-section > div{
+
+flex-direction:column !important;
+
+align-items:center !important;
+
+text-align:center !important;
+
+gap:45px !important;
+
+}
+
+.hero-title{
+
+font-size:48px !important;
+
+}
+
+.hero-description{
+
+font-size:17px !important;
+
+max-width:100% !important;
+
+}
+
+.hero-logo{
+
+width:240px !important;
+
+height:240px !important;
+
+}
+
+}
+
+@media (max-width:600px){
+
+.hero-title{
+
+font-size:36px !important;
+
+line-height:1.15 !important;
+
+}
+
+.hero-description{
+
+font-size:15px !important;
+
+}
+
+.hero-logo{
+
+width:190px !important;
+
+height:190px !important;
+
+}
+
+.hero-logo div:first-child{
+
+font-size:70px !important;
+
+}
+
+}
+
+@media (max-width:600px){
+
+.hero-logo{
+    display:none !important;
+}
+
+}
+/* Hide desktop navigation on phones */
+
+@media (max-width:768px){
+
+.desktop-nav{
+    display:none !important;
+}
+
+}
 </style>
 
 """, unsafe_allow_html=True)
@@ -518,7 +692,7 @@ color:white;
 🚨 DrishtAI
 </div>
 
-<div style="
+<div class="desktop-nav" style="
 display:flex;
 gap:14px;
 ">
@@ -718,33 +892,46 @@ def analyse(path: str, cfg: dict, ui) -> dict:
 
 st.markdown("""
 
-<div style="padding-top:25px;padding-bottom:35px;">
+<div class="hero-section" style="
+padding-top:25px;
+padding-bottom:35px;
+">
 
-<div style="display:flex;
+<div style="
+display:flex;
 align-items:center;
-justify-content:space-between;">
+justify-content:space-between;
+gap:60px;
+flex-wrap:wrap;
+">
 
-<div>
+<!-- LEFT -->
+
+<div style="
+flex:1;
+min-width:320px;
+max-width:760px;
+">
 
 <div style="
 font-family:'Space Grotesk';
 font-size:16px;
 letter-spacing:4px;
-color:#22D3EE;
 font-weight:700;
+color:#22D3EE;
+margin-bottom:18px;
 ">
 
 DRISHTAI AI PLATFORM
 
 </div>
 
-<div style="
+<div class="hero-title" style="
 font-family:'Space Grotesk';
 font-size:62px;
 font-weight:700;
 line-height:1.05;
 color:white;
-margin-top:8px;
 ">
 
 AI Powered<br>
@@ -752,11 +939,10 @@ Accident Investigation
 
 </div>
 
-<div style="
-margin-top:22px;
+<div class="hero-description" style="
+margin-top:24px;
 font-size:18px;
 line-height:1.8;
-max-width:700px;
 color:#94A3B8;
 ">
 
@@ -766,7 +952,12 @@ and generate an AI-powered investigation report.
 
 </div>
 
-<div style="margin-top:35px;display:flex;gap:18px;flex-wrap:wrap;">
+<div style="
+margin-top:35px;
+display:flex;
+flex-wrap:wrap;
+gap:18px;
+">
 
 <div style="
 padding:10px 18px;
@@ -776,9 +967,7 @@ border:1px solid #1E3A5F;
 color:#38BDF8;
 font-weight:600;
 ">
-
 🚗 Vehicle Tracking
-
 </div>
 
 <div style="
@@ -789,9 +978,7 @@ border:1px solid #1E3A5F;
 color:#38BDF8;
 font-weight:600;
 ">
-
 ⚡ Motion Analysis
-
 </div>
 
 <div style="
@@ -802,9 +989,7 @@ border:1px solid #1E3A5F;
 color:#38BDF8;
 font-weight:600;
 ">
-
 🚨 Collision Detection
-
 </div>
 
 <div style="
@@ -815,22 +1000,31 @@ border:1px solid #1E3A5F;
 color:#38BDF8;
 font-weight:600;
 ">
-
 🤖 AI Report
-
 </div>
 
 </div>
 
 </div>
 
-<div>
+<!-- RIGHT -->
 
 <div style="
+display:flex;
+justify-content:center;
+align-items:center;
+flex:0 0 auto;
+">
+
+<div class="hero-logo" style="
 width:280px;
 height:280px;
 border-radius:28px;
-background:linear-gradient(135deg, rgba(59,130,246,.15), rgba(34,211,238,.08));
+background:linear-gradient(
+135deg,
+rgba(59,130,246,.15),
+rgba(34,211,238,.08)
+);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -840,12 +1034,8 @@ box-shadow:0 0 60px rgba(59,130,246,.18);
 
 <div style="text-align:center;">
 
-<div style="
-font-size:90px;
-">
-
+<div style="font-size:90px;">
 🛰️
-
 </div>
 
 <div style="
@@ -853,6 +1043,7 @@ font-family:'Space Grotesk';
 font-size:30px;
 font-weight:700;
 color:white;
+margin-top:8px;
 ">
 
 DrishtAI
@@ -860,8 +1051,8 @@ DrishtAI
 </div>
 
 <div style="
+margin-top:8px;
 color:#94A3B8;
-margin-top:6px;
 ">
 
 Incident Intelligence
@@ -879,8 +1070,6 @@ Incident Intelligence
 </div>
 
 """, unsafe_allow_html=True)
-
-st.markdown("<br>", unsafe_allow_html=True)
 
 with st.sidebar:
     st.markdown("""
